@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#bg-image{
+    background-image: url("./bg.jpg");
+}
+#student_made_logo{
+    width:30%;
+    height:13%;
+    margin:0;
+    padding:0;
+}
+#trapezoid {
+    margin-top: 3vw;
+    width: 20vw;
+    height: 10vw;
+    background-color: red;
+    transform: perspective(20vw) rotateY(45deg);
+  }
+/* bates.edu */
+#footer_style{
+    /* opacity: 50%; */
+    margin:none;
+    padding:none;
+}
+body{
+    margin:none;
+    padding:none;
+}
